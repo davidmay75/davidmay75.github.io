@@ -44,6 +44,24 @@
             height: 150px;
         }
     }
+
+    .menu-btn{
+        &.close {
+            .btn-line {
+                // change X color on smaller screens
+                &:nth-child(1){
+                    background: $tertiary-color;
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:nth-child(3){
+                    background: $tertiary-color;
+                }
+            }
+        }
+    }
+    
 }
 //smartphones
 @include mediaSm {

@@ -115,7 +115,13 @@
     .menu-branding .portrait {
       background: url("../img/portrait_small.png");
       width: 150px;
-      height: 150px; } }
+      height: 150px; }
+  .menu-btn.close .btn-line:nth-child(1) {
+    background: lime; }
+  .menu-btn.close .btn-line:nth-child(2) {
+    opacity: 0; }
+  .menu-btn.close .btn-line:nth-child(3) {
+    background: lime; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
