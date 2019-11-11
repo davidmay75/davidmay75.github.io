@@ -79,13 +79,29 @@ main {
 
     img {
         width: 100%;
-        border: 3px solid $secondary-color;
+        
+        border-bottom: 2px solid $secondary-color;
 
         &:hover{
             opacity: 0.5;
             border-color: $tertiary-color;
             @include easeOut;
         }
+    }
+
+    .item {
+        background: rgba(lighten($color: $primary-color, $amount: 4), 0.7); 
+        border: 2px solid $secondary-color;
+    }
+
+    .desc {
+        text-align: left;
+        font-size: .75rem;
+
+        padding: 0.5rem;
+    }
+    .text-secondary{
+        font-weight: 500;
     }
 }
 
@@ -95,12 +111,12 @@ main {
     padding: 0.5rem 1rem;
     border: 0;
     margin-bottom: 0.3rem;
+    
 
     &:hover{
         background: $secondary-color;
         color: $tertiary-color;
     }
-
 }
 
 .btn-dark{
