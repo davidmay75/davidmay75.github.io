@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "index.js",
-  "homepage": "https://davidmay75.github.io/",
+  "homepage": "https://davidmay75.github.io/davidmay75.github.io",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0"

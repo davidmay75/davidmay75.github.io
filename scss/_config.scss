@@ -19,12 +19,14 @@ $background-opacity: 0.9;
 
             &:after {
                 content: '';
-                position: absolute;
+                position: fixed;
                 top: 0;
                 right: 0;
                 width: 100%;
                 height: 100%;
+                margin: 0;
                 background: rgba($primary-color, $background-opacity);
+                background-size: cover;
                 z-index: -1;
             }
         }

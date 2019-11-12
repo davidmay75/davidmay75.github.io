@@ -92,17 +92,20 @@ main {
     .item {
         background: rgba(lighten($color: $primary-color, $amount: 4), 0.7); 
         border: 2px solid $secondary-color;
+
+       
     }
 
     .desc {
         text-align: left;
         font-size: .75rem;
 
-        padding: 0.5rem;
+        padding: 0 0.5rem;
     }
     .text-secondary{
         font-weight: 500;
     }
+
 }
 
 //button styles
@@ -111,6 +114,7 @@ main {
     padding: 0.5rem 1rem;
     border: 0;
     margin-bottom: 0.3rem;
+    
     
 
     &:hover{
