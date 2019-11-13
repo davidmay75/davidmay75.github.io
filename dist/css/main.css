@@ -57,9 +57,10 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background-size: cover;
       border-radius: 50%;
-      border: solid 3px lime; }
+      border: solid 3px lime;
+      background: url("../img/portrait_small.png");
+      background-size: cover; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.75s ease-out; }
