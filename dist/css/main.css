@@ -207,7 +207,13 @@ main {
   display: grid;
   grid-gap: 0.7rem; }
   .projects img {
+    position: relative;
+    float: left;
     width: 100%;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-bottom: 2px solid #ff5100; }
     .projects img:hover {
       opacity: 0.5;
@@ -215,11 +221,13 @@ main {
       transition: all 0.75s ease-out; }
   .projects .item {
     background: rgba(126, 0, 175, 0.7);
-    border: 2px solid #ff5100; }
+    border: 2px solid #ff5100;
+    overflow: hidden; }
   .projects .desc {
     text-align: left;
     font-size: 1rem;
     font-weight: 400;
+    width: 100%;
     padding: 0 0.5rem; }
   .projects .text-secondary {
     font-weight: 500; }
